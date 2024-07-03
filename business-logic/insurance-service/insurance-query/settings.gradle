@@ -1,0 +1,7 @@
+rootProject.name = 'insurance-query'
+
+include(":insurance-domain")
+project(":insurance-domain").projectDir = file("../insurance-domain")
+
+include(":shared-library")
+project(":shared-library").projectDir = file("../../../shared-library")
